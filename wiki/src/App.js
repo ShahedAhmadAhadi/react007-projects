@@ -10,9 +10,12 @@ import ReactPaginate from 'react-paginate'
 function App() {
   const [pageNumber, setPageNumber] = useState(1)
   const [search, setSearch] = useState('')
+  const [status, setStatus] = useState('')
+  const [gender, setGender] = useState('')
+  const [species, setSpecies] = useState('')
   const [fetchedData, setFetchedData] = useState([])
   let { info, results } = fetchedData
-  let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}`
+  let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}&status=${status}&gender=${gender}&species=${species}`
   console.log(info)
 
   useEffect(() => {
@@ -28,7 +31,7 @@ function App() {
       <Search setSearch={setSearch} setPageNumber={setPageNumber} />
       <div className="container">
         <div className="row">
-            <Filters />
+            <Filters setSpecies={setSpecies} setGender={setGender} setStatus={setStatus} setPageNumber={setPageNumber} />
           <div className="col-8">
             <div className='row'>
               <Cards results={results} />
