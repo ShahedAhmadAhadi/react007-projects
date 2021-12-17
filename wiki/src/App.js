@@ -55,7 +55,7 @@ const Home = () => {
       <Search setSearch={setSearch} setPageNumber={setPageNumber} />
       <div className="container">
         <div className="row">
-            <Filters setSpecies={setSpecies} setGender={setGender} setStatus={setStatus} setPageNumber={setPageNumber} />
+          <Filters setSpecies={setSpecies} setGender={setGender} setStatus={setStatus} setPageNumber={setPageNumber} />
           <div className="col-lg-8 col-12">
             <div className='row'>
               <Cards page="/" results={results} />

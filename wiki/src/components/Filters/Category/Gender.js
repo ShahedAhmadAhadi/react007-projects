@@ -1,7 +1,7 @@
 import React from 'react'
 import FilterBtn from './FilterBtn'
 
-const Gender = ({setPageNumber, setGender}) => {
+const Gender = ({ setPageNumber, setGender }) => {
     let genders = ["Male", "Female", "GenderLess", "Unknown"]
     return (
         <div className="accordion-item">

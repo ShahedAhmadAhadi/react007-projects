@@ -1,7 +1,7 @@
 import React from 'react'
 import FilterBtn from './FilterBtn'
 
-const Status = ({setPageNumber, setStatus}) => {
+const Status = ({ setPageNumber, setStatus }) => {
     let status = ["Alive", "Dead", "Unknown"]
 
     return (
