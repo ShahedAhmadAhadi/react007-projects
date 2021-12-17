@@ -7,6 +7,8 @@ import Pagination from './components/Pagination/Pagination';
 import Search from './components/Search/Search';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
+import Episodes from './Pages/Episodes';
+import Location from './Pages/Locations';
 
 function App() {
   return (
@@ -16,6 +18,10 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
+
+        <Route path="/episodes" element={<Episodes />} />
+
+        <Route path="/location" element={<Location />} />
       </Routes>
     </Router>
   )
