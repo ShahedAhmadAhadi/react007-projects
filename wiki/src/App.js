@@ -51,14 +51,14 @@ const Home = () => {
 
   return (
     <div className="App">
-      <h1 className="text-center ubuntu my-4">Rick &amp; Morty <span className="text-primary">Wiki</span></h1>
+      <h1 className='text-center mb-4'>Characters</h1>
       <Search setSearch={setSearch} setPageNumber={setPageNumber} />
       <div className="container">
         <div className="row">
             <Filters setSpecies={setSpecies} setGender={setGender} setStatus={setStatus} setPageNumber={setPageNumber} />
           <div className="col-8">
             <div className='row'>
-              <Cards results={results} />
+              <Cards page="/" results={results} />
             </div>
           </div>
         </div>
