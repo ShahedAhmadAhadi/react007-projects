@@ -5,9 +5,23 @@ import Cards from './components/Cards/Cards';
 import Filters from './components/Filters/Filters';
 import Pagination from './components/Pagination/Pagination';
 import Search from './components/Search/Search';
-import ReactPaginate from 'react-paginate'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navbar />
+      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  )
+}
+
+const Home = () => {
   const [pageNumber, setPageNumber] = useState(1)
   const [search, setSearch] = useState('')
   const [status, setStatus] = useState('')
