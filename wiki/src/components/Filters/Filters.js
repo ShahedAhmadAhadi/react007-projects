@@ -12,7 +12,7 @@ const Filters = ({setPageNumber, setStatus, setGender, setSpecies}) => {
         window.location.reload(false)
     }
     return (
-        <div className='col-3'>
+        <div className='col-lg-3 col-12 mb-5'>
             <div className="text-center fs-4 fw-bold mb-4">Filter</div>
             <div onClick={() => clear()} className='text-center text-primary text-decoration-underline mb-4' style={{ cursor: 'pointer' }}>Clear Filters</div>
             <div className="accordion" id="accordionExample">
