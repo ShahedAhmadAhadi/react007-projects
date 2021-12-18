@@ -1,11 +1,11 @@
-import './App.css';
+import React from 'react'
 
 function App() {
-  return (
-    <div className="App">
-      Crypto
-    </div>
-  );
+    return (
+        <div>
+            Crypto
+        </div>
+    )
 }
 
-export default App;
+export default App
