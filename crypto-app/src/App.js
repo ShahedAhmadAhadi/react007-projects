@@ -1,10 +1,20 @@
 import React from 'react'
-import {Link, Switch} from 'react-router-dom'
+import {Link, Switch, Route} from 'react-router-dom'
+import {Layout, Typography, Space} from 'antd'
+import Navbar from './components/Navbar'
 
 function App() {
     return (
-        <div>
-            Crypto
+        <div className='App'>
+            <div className='navbar'>
+                <Navbar />
+            </div>
+            <div className='main'>
+
+            </div>
+            <div className='footer'>
+
+            </div>
         </div>
     )
 }
