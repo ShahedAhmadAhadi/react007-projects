@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link, Switch, Route} from 'react-router-dom'
 import {Layout, Typography, Space} from 'antd'
-import Navbar from './components/Navbar'
+import { Navbar } from './components'
 
 function App() {
     return (
