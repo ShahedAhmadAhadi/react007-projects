@@ -5,6 +5,9 @@ import { Layout, Typography, Space } from 'antd';
 import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
 
+console.log('globalStats')
+
+
 const App = () => (
   <div className="app">
     <div className="navbar">
