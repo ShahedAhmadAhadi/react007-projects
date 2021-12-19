@@ -1,13 +1,12 @@
-import React from 'react'
-import './App.css'
-import 'antd/dist/antd.css'
-import {Link, Switch, Route} from 'react-router-dom'
-import {Layout, Typography, Space} from 'antd'
-import { Cryptocurrencies, CryptoDetails, Exchanges, Homepage, Navbar, News } from './components'
+import React from 'react';
+import { Switch, Route, Link } from 'react-router-dom';
+import { Layout, Typography, Space } from 'antd';
 
-function App() {
-    return (
-        <div className="app">
+import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
+import './App.css';
+
+const App = () => (
+  <div className="app">
     <div className="navbar">
       <Navbar />
     </div>
@@ -48,7 +47,6 @@ function App() {
       </div>
     </div>
   </div>
-    )
-}
+);
 
-export default App
+export default App;
