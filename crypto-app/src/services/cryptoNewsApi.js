@@ -11,7 +11,13 @@ export const cryptoNewsApi = createApi({
         getCryptoNews: builder.query({
             query: ({ newsCategory, count }) => createRequest(`/news/search?q=${newsCategory}&safeSearch=Off&textFormat=Raw&freshness=Day&count=${count}`),
         }),
+        getCryptoDetails: builder.query({
+            query: (coinId) => createRequest(`/coin/${coinId}`),
+          }),
+          getCryptoHistory: builder.query({
+            query: ({ coinId, timeperiod }) => createRequest(`coin/${coinId}/history/${timeperiod}`),
+          }),
     }),
 });
 
-export const { useGetCryptoNewsQuery } = cryptoNewsApi;
+export const { useGetCryptoNewsQuery, useGetCryptoDetailsQuery, useGetCryptoHistoryQuery } = cryptoNewsApi;
