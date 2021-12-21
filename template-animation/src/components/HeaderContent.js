@@ -2,8 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import SecondaryButton from './SecondaryButton'
 import phone from '../img/phone.svg'
-import ring1 from '../img/ring-orange.svg'
-import
+import ring1 from '../img/ring_orange.svg'
+import message1 from '../img/message_pink.svg'
+import message2 from '../img/message_blue.svg'
 
 const HeaderContent = () => {
     return (
@@ -20,8 +21,10 @@ const HeaderContent = () => {
                 </div>
             </div>
             <div className='right-content'>
-                <img src={phone} alt='' />
+                <img src={phone} alt='' className='phone' />
                 <img src={ring1} alt="" className="ring1" />
+                <img src={message1} alt="" className="message1" />
+                <img src={message2} alt="" className="message2" />
             </div>
         </HeaderContentStyled>
     )
@@ -47,10 +50,27 @@ const HeaderContentStyled = styled.div`
     }
     .right-content {
         position: relative;
+        .phone {
+            width: 80%;
+            display: flex;
+            justify-content: center; 
+        }
         .ring1{
             posistion: absolute;
             bottom: 10%;
             left: auto;
+            right: 0;
+        }
+        .message1{
+            posistion: absolute;
+            top: 0;
+            left: auto;
+            right: 0;
+        }
+        .message2{
+            posistion: absolute;
+            bottom: 15%;
+            left: 0;
             right: 0;
         }
     }
