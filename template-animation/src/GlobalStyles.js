@@ -28,6 +28,14 @@ const GlobalStyle = createGlobalStyle`
     a{
         color: inherit;
     }
+    p{
+        color: var(--lavender-secondary);
+        line-height: 1.9rem;
+    }
+    .secondary-heading{
+        font-size: 3rem;
+        color: var(--purple-primary)
+    }
 
 `;
 

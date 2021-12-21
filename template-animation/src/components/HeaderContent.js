@@ -33,7 +33,7 @@ const HeaderContent = () => {
 const HeaderContentStyled = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 3rem;
+    padding-top: 3rem;
     .left-content{
         display: flex;
         align-items: center;
@@ -45,33 +45,32 @@ const HeaderContentStyled = styled.div`
         .white {
             padding: 1.4rem 0;
             line-height: 1.8rem;
-             
+            color: white;
         }
     }
     .right-content {
         position: relative;
+        display: flex;
+        justify-content: center;
         .phone {
             width: 80%;
-            display: flex;
-            justify-content: center; 
         }
         .ring1{
-            posistion: absolute;
+            position: absolute;
             bottom: 10%;
             left: auto;
             right: 0;
         }
         .message1{
-            posistion: absolute;
+            position: absolute;
             top: 0;
             left: auto;
             right: 0;
         }
         .message2{
-            posistion: absolute;
+            position: absolute;
             bottom: 15%;
             left: 0;
-            right: 0;
         }
     }
 `
