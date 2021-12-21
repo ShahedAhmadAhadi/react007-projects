@@ -17,12 +17,20 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Nunito', sans-serif;
         text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        text-decoration: none;
     }
 
     body{
         background-color: var(--neutral-light);
         color: white;
         font-size: 1.2rem;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    a{
+        color: inherit;
     }
 
 `;
