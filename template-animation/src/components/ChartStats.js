@@ -16,6 +16,7 @@ const ChartStatsStyled = styled.div`
     border-radius: 50px;
     height: 10rem;
     padding: 2rem;
+    box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
     h4{
         font-size: 3rem;
         color: var(--purple-primary);
