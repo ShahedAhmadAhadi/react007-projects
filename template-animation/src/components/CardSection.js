@@ -12,7 +12,7 @@ const CartSection = () => {
                         <h2 className='secondary-heading'>
                             One card for all your payments
                         </h2>
-                        <p className='secondary-heading'>
+                        <p className=''>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt reprehenderit doloremque quia? Odit illo, tempore quod vero exercitationem, 
                                 voluptatum laudantium quo harum, adipisci tenetur eum.
                         </p>

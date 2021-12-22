@@ -24,7 +24,6 @@ const GlobalStyle = createGlobalStyle`
         color: white;
         font-size: 1.2rem;
     }
-
     a{
         color: inherit;
     }
