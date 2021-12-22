@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
         --lavender-secondary: #6A6D9E; /*Primary Font Color*/
         --dark-primary: #16194F;
         --border-colour: #CAD6F1;
-        
     }
     *{
         margin: 0;
