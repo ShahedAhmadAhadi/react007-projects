@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { InnerLayout } from '../styles/Layouts'
 import ChartStats from './ChartStats'
 import chart from '../img/chart.svg'
+import AnimatedButton from './AnimatedButton'
 
 const ChartSection = () => {
     return (
@@ -28,6 +29,7 @@ const ChartSection = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officia nemo distinctio dolores necessitatibus odit magni corrupti error, 
                         voluptate alias adipisci ducimus nostrum maiores. Ad?
                     </p>
+                    <AnimatedButton name={'Learn More'} />
                 </div> 
                 </div>
             </InnerLayout>
@@ -40,11 +42,11 @@ const ChartStyled = styled.section`
         display: grid;
         grid-template-column: repeat(2, 1fr);
         .chart-left{
-            width: 80%; 
+            width: 80%;  
             .stats{
                 img {
                     box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
-                    border-radiux: 50px;
+                    border-radiux: 62px;
                     width: 100%;
                 }
                 .stats-money{
