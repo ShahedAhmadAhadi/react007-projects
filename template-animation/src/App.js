@@ -3,6 +3,7 @@ import CardSection from "./components/CardSection";
 import ChartSection from "./components/ChartSection";
 import Header from "./components/Header";
 import MessagingSection from "./components/MessagingSection";
+import PaymentSection from "./components/PaymentSection";
 import {OuterLayout} from './styles/Layouts'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <CardSection />
           <ChartSection />
           <MessagingSection />
+          <PaymentSection />
         </MainStyled>
       </OuterLayout>
     </div>
