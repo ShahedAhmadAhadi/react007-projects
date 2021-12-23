@@ -19,7 +19,7 @@ const Navigation = () => {
     )
 }
 
-const NavigationStyled= styled.nav`
+const NavigationStyled = styled.nav`
     display: flex;
     justify-content: space-between;
     min-height: 10vh;
