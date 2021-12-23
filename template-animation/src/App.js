@@ -2,6 +2,7 @@ import styled from "styled-components";
 import CardSection from "./components/CardSection";
 import ChartSection from "./components/ChartSection";
 import Header from "./components/Header";
+import MessagingSection from "./components/MessagingSection";
 import {OuterLayout} from './styles/Layouts'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <MainStyled>
           <CardSection />
           <ChartSection />
+          <MessagingSection />
         </MainStyled>
       </OuterLayout>
     </div>
