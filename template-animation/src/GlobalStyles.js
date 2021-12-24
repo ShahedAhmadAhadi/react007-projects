@@ -43,6 +43,10 @@ const GlobalStyle = createGlobalStyle`
         color: var(--accent-pink)
     }
 
+    .c-para {
+        text-align: center;
+    }
+
 `;
 
 export default GlobalStyle
