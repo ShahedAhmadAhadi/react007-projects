@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { InnerLayout } from '../styles/Layouts'
+import { } from ''
 
 const FAQSection = () => {
     return (
@@ -12,13 +13,17 @@ const FAQSection = () => {
                     Assumenda maxime ipsa nam expedita dolorem distinctio illo 
                     ad doloribus atque fuga, Nihil laboriosam beatae fugit.
                 </p>
+
             </InnerLayout>
         </FaqStyled>
     )
 }
 
 const FaqStyled = styled.section`
-    
+    .c-para {
+        width: 60%;
+        margin: 0 auto;
+    }
 `
 
 export default FAQSection
