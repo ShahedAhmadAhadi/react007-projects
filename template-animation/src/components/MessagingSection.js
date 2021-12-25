@@ -42,7 +42,10 @@ const MessagingSection = () => {
 const MessageStyled = styled.section`
     .message-con{
         display: grid;
-        grid-template-column: repeat(2, 1fr)
+        grid-template-column: repeat(2, 1fr);
+        @media screen and (max-width: 1347px){
+            grid-template-column: repeat(1, 1fr);
+        } 
     }
     .left-items{
         position: relative;

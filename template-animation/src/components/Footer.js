@@ -61,6 +61,7 @@ const Footer = () => {
 const FooterStyled = styled.footer`
     padding: 0 18rem;
     background: #dce2f0;
+    
     .footer-con{
         display: grid;
         grid-template-column: repeat(2, 1fr);
