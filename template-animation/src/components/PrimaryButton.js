@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const PrimaryButton = ({name}) => {
+const PrimaryButton = ({ name }) => {
     return (
         <ButtonStyled>
             {name}

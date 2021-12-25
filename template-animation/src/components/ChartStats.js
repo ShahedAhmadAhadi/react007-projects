@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ChartStats = ({name, amount}) => {
+const ChartStats = ({ name, amount }) => {
     return (
         <ChartStatsStyled>
             <p><b>{name}</b></p>

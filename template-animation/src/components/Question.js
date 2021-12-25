@@ -3,10 +3,10 @@ import styled from 'styled-components';
 import plus from '../img/plus.svg';
 import minus from '../img/minus.svg';
 
-const Question = ({title, description}) => {
+const Question = ({ title, description }) => {
     const [toggle, setToggle] = useState(false);
 
-    const btnToggler = () =>{
+    const btnToggler = () => {
         setToggle(!toggle);
     }
 

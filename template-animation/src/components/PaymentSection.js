@@ -33,7 +33,7 @@ const PaymentSection = () => {
                         text6={'Priority 24/7 support'}
                         text7={'Exchange 24 currencies'}
                         text8={'Multi-user access'}
-                        />
+                    />
                     <Card
                         account={'Free'}
                         amount={'$0'}
@@ -52,7 +52,7 @@ const PaymentSection = () => {
                         text6={'Priority 24/7 support'}
                         text7={'Exchange 24 currencies'}
                         text8={'Multi-user access'}
-                        />
+                    />
                 </div>
             </InnerLayout>
         </PaymentStyled>
@@ -65,7 +65,7 @@ const PaymentStyled = styled.section`
         grid-template-column: repeat(2, 1fr);
         grid-gap: 3rem;
         padding-top: 7.5rem;
-        @media screen and (max-width: 570px){
+        @media screen and (max-width: 689px){
             grid-template-column: repeat(1, 1fr);
         } 
     }

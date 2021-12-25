@@ -34,6 +34,9 @@ const HeaderContentStyled = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top: 3rem;
+    @media screen and (max-width: 700px){
+        grid-template-columns: repeat(1, 1fr);
+    }
     .left-content{
         display: flex;
         align-items: center;
@@ -41,6 +44,9 @@ const HeaderContentStyled = styled.div`
         h1 {
             font-size: 4rem;
             font-weight: 600;
+            @media screen and (max-width: 700px){
+                font-size: 3rem;
+            }
         }
         .white {
             padding: 1.4rem 0;

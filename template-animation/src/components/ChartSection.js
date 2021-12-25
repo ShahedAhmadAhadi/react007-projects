@@ -8,29 +8,29 @@ import AnimatedButton from './AnimatedButton'
 const ChartSection = () => {
     return (
         <ChartStyled>
-            
+
             <InnerLayout>
                 <div className='chart-con'>
 
-            <div className='chart-left'>
-                    <div className='stats'>
-                        <div className='stats-money'>
-                            <ChartStats name={'Balance'} amount={'$250'} />    
-                            <ChartStats name={'Last Transaction'} amount={'$1,000'} />    
+                    <div className='chart-left'>
+                        <div className='stats'>
+                            <div className='stats-money'>
+                                <ChartStats name={'Balance'} amount={'$250'} />
+                                <ChartStats name={'Last Transaction'} amount={'$1,000'} />
+                            </div>
+                            <img src={chart} alt='' />
                         </div>
-                        <img src={chart} alt='' />
                     </div>
-                </div>
-                <div className='chart-right'>
-                    <h2 className='secondary-heading'>
-                        Manage your finances like a pro in no time    
-                    </h2>    
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officia nemo distinctio dolores necessitatibus odit magni corrupti error, 
-                        voluptate alias adipisci ducimus nostrum maiores. Ad?
-                    </p>
-                    <AnimatedButton name={'Learn More'} />
-                </div> 
+                    <div className='chart-right'>
+                        <h2 className='secondary-heading'>
+                            Manage your finances like a pro in no time
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officia nemo distinctio dolores necessitatibus odit magni corrupti error,
+                            voluptate alias adipisci ducimus nostrum maiores. Ad?
+                        </p>
+                        <AnimatedButton name={'Learn More'} />
+                    </div>
                 </div>
             </InnerLayout>
         </ChartStyled>

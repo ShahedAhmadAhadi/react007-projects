@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import arrow from '../img/arrow.svg'
 
-const SecondaryButton = ({name}) => {
+const SecondaryButton = ({ name }) => {
     return (
         <SecondaryButtonStyled>
             {name}

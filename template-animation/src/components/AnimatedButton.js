@@ -4,7 +4,7 @@ import arrow from '../img/arrow.svg'
 import blob1 from '../img/blob_top.svg';
 import blob2 from '../img/blob_bottom.svg';
 
-const AnimatedButton = ({name}) => {
+const AnimatedButton = ({ name }) => {
     return (
         <AnimationButtonStyled>
             {name}

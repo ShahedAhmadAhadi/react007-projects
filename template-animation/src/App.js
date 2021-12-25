@@ -5,7 +5,7 @@ import FAQSection from "./components/FAQSection";
 import Header from "./components/Header";
 import MessagingSection from "./components/MessagingSection";
 import PaymentSection from "./components/PaymentSection";
-import {OuterLayout} from './styles/Layouts'
+import { OuterLayout } from './styles/Layouts'
 
 function App() {
   return (
